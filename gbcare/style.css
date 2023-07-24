@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.nav-link{
+    color: white;
+    margin: 5px;
+}
+.nav-link:hover{
+    color: yellow;
+}
+i{
+    font-size: 15px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.carousel{
+   z-index: -1;
+}
+
+nav{
+    color: white;
+    
+
+}    
+@media screen and (max-width: 400px) and (min-width:0px) {
+  
+    .nav-link{
+        float: left;
+        margin-right: 200px;
+        border-bottom:0.5px solid rgba(255, 255, 255, 0.297) ;
+        width: 90%;
+    }
+    nav{
+        width: 94%;
+    
+    }
+    #h11{
+display: none;
+    }
+    #h22{
+       display: none;
+
+    }form{
+      display: none;
+    }
+
+}
+.navbar-toggler{
+    margin-right: 250px;
+    
+   
+}
+@media screen and (max-width: 1138px) and (min-width:700px) {
+  
+    .nav-link{
+        float: left;
+        /* margin-right: 200px; */
+        /* border-bottom:0.5px solid rgba(255, 255, 255, 0.297) ; */
+        font-size: 10px;
+        
+    }
+    
+}
+.navbar-toggler{
+    margin-right: 250px;
+    
+   
+}
+
+@media screen and (max-width: 978px) and (min-width:600px) {
+  
+    .nav-link{
+        float: left;
+        /* margin-right: 200px; */
+        /* border-bottom:0.5px solid rgba(255, 255, 255, 0.297) ; */
+        font-size: 10px;
+
+        
+    }
+    form{
+     display:none ; 
+    }
+    nav{
+        margin-right: 50px;
+    }
+    i{
+        font-size: small;
+        margin-right: 10px;
+    }
+    
+    
+
+.navbar-toggler{
+    margin-right: 250px;
+    
+   
+}}
+@media screen and (max-width: 600px) and (min-width:550px) {
+  
+    .nav-link{
+        float: left;
+        /* margin-right: 200px; */
+        /* border-bottom:0.5px solid rgba(255, 255, 255, 0.297) ; */
+        font-size: 7px;
+        margin: 0;
+
+        
+    }
+    i{
+        font-size: small;
+        margin-right: 10px;
+    }
+    
+}
+.navbar-toggler{
+    margin-right: 250px;
+    
+   
+}
+   .card{
+    display: inline-block;
+    
+    margin: 0px;
+    outline: none;
+    border-radius: 0px;
+    margin-left: 0px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    cursor: pointer;
+margin-top: 50px;
+overflow: hidden;
+transition: all 0.6s ease-in-out;
+overflow: hidden;}
+
+/* .card img:hover{
+  transform: scale(1.2);
+} */
+
+
+
+    
+@media  screen and (max-width:576px) and (min-width:0px) {
+    
+    .card{
+        /* margin-left:4px; */
+        margin-top: 20px;
+        
+    }
+    textarea{
+      width: 300px;
+    }
+
+    
+}
+@media  screen and (min-width:776px) and (max-width:900px)  {
+    
+ 
+  textarea{
+    width: 400px;
+  }}
+  .card img{
+    width: 300px;
+    margin-top: 30px;
+margin-left: 15px;
+    border-radius: 0px;
+
+
+  }
+  .card:hover{
+    transform: translateY(-10px);
+   
+  }
+  
+  #bt:hover{
+    background-color: blue;
+    
+  }
+  #about{
+    display: grid;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    
+
+  }
+  #icon1{
+    color: white;
+    font-size: 25px;
+background-color: mediumslateblue;
+border-radius: 100%;
+padding: 15px;
+cursor: pointer;
+  }
+  #icon1:hover{
+background-color: white;
+color:mediumslateblue ;
+transition: all 0.6s ease-in-out;
+  }
+  #icon2{
+    background-color: white;
+    font-size: 25px;
+background-color: lightskyblue;
+border-radius: 100%;
+padding: 15px;
+cursor: pointer;
+  }
+  #icon2:hover{
+    background-color: white;
+    color:lightskyblue;
+    transition: all 0.6s ease-in-out;
+      }
+  #icon3{
+    background-color: white;
+    font-size: 25px;
+background-color:red;
+border-radius: 100%;
+padding: 15px;
+cursor: pointer;
+  }
+  #icon3:hover{
+    background-color: white;
+    color:red;
+    transition: all 0.6s ease-in-out;
+      }
+  #icon4{    background-color: white;
+    font-size: 25px;
+background-color: brown;
+border-radius: 100%;
+padding: 15px;cursor: pointer;
+
+  }
+  #icon4:hover{
+    background-color: white;
+    color:brown;
+    transition: all 0.6s ease-in-out;
+      }
+      .ff{
+        color: white;
+        margin-left: 5px;
+        margin-top: 30px;
+      }
+      #fon{
+        
+        color: goldenrod;
+      }
+      .container-fluid{
+        overflow: hidden;
+      }
+      .container{
+        overflow: hidden;
+      }
+      @media screen and (max-width:900px) and (min-width:0px) {
+        #btnn{
+    margin-left: 0px;
+           
+        }
+        
+      }
+      @media screen and (max-width:1284px) and (min-width:1001px) {
+        #btnn{
+    margin-left: 550px;
+           
+        }
+        
+      }
+      
+      #cards{
+    color:#002345 ;font-weight: bold;margin-top: 30px;text-align: center;text-decoration: underline;
+      }
+      #cards1{
+        height: 300px;
+      }
+      .card-text{
+        color: #0023457f;
+        font-weight: 500;text-align: center;
+      }
+      @media  screen and (max-width:770px) and (min-width:0px) {
+
+        #btnmain{
+            width: 100px;}
+           form{
+            display: none;
+           } 
+        
+        #p-none{
+            display: none;
+        }
+nav{
+  background-color: #002345;
+}
+      }
+      @media  screen and (max-width:1284px) and (min-width:1000px) {
+
+        #btnmain{
+            margin-left: 500px
+        };
+        
+      }
+      .tr{
+        font-weight: bold;
+        color: #002345;margin-top: 50px;
+
+      }
+      .trii{
+        color: #002345;
+        font-weight: bold;
+      }
+      #tri{
+        color: goldenrod;
+        font-weight: bold;
+      }
+      table{
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+      }
+      table input{
+        width: 300px;
+        height: 44px;
+        background-color: aliceblue;
+        outline: none;border: none;
+        margin-top: 15px;
+      }
+    .tablee{
+        font-weight: bold;
+        color: #002345;
+
+    }
+    textarea{
+        outline: none;
+        border: none;
+        background-color: aliceblue;
+        margin-top: 5px;
+    }
+    #fonn{
+        font-size: 40px;
+        color: goldenrod;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+/* nursing college page */
+#anc{
+  color:rgba(0, 0, 255, 0.749);
+  font-weight: bold;
+  
+}
+.c1{
+  color: #002345;font-weight: 700;
+  text-align: center;
+}
+.cp1{
+  text-align: center;
+  font-weight: 800;
+}
+.a11{
+  font-weight: 800;
+  text-align: center;
+  margin-left: 110px;
+}
+
+.covid-g{
+  display: grid;
+  color: white;
+  font-weight: bold;
+}
+#links1{
+  color: #115eab;
+  font-weight: bold;
+  display: grid;
+  margin: 10px;
+}
+.link{
+  color: rgba(255, 255, 255, 0.952);
+  font-weight: 500;
+  display: grid;
+  margin-left: 50px;
+}
+/* professional and reliable suction */
+.p1{
+  color: #002345;
+  font-weight: 600;
+  margin: 0px;
+  
+}
+.p{
+  display: inline-block;
+  margin-top: 30px;
+}
+/* .btn-t1{
+  margin-top: 2px;
+  display: block;
+  width: 100%;
+
+} */
+/* .btn-t1:hover{
+  background-color: goldenrod;
+} */
+.btn-p1{
+  float: left;
+}
+.span-nu{
+  color: goldenrod;font-size: 20px;font-weight: bold;margin: 5px;
+}
+.btn-p1{
+  color: #002345;font-size: 20px;font-weight: bold;
+  margin-top: 10px;
+}
+/* #teeth{
+  width: 220px;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+}
+.img-1{
+  margin-top: 100px;
+} */
+.image-1{
+  width: 700px;
+  position: relative;
+  height: fit-content;
+  margin-top: 100px;
+
+}
+
+.image-2{
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+overflow: hidden;
+}
+.image-2 img{
+  width: 100%;
+  height: 100%;
+  transition: all .2s ease-in;
+}
+
+.image-2::before,
+.image-2::after{
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 46, 251, 0.674);
+  transition: all .3s ease-in-out;
+  opacity: 0;
+  z-index: 10;
+  /* left: -100%; */
+}
+
+.image-2::before{
+  /* opacity: 1; */
+
+  top: -40%;
+}
+.image-2::after{
+  /* opacity: 1; */
+  right: -40%;
+}
+.image-2:hover::before{
+  top: 0;
+  opacity: 1;
+}
+.image-2:hover::after{
+  right: 0;
+  opacity: 1;
+}
+.image-2:hover img{
+  transform: scale(1.08);
+}
+
+
+
+
+
+
+
+#card-collaps{
+  height: fit-content; margin-top: 15px;margin-left: 0px;
+  box-shadow:0px 2px 2px 1px rgba(0, 0, 255, .2); 
+  
+}
+.collaps-span{
+  font-size: larger; font-weight: bold; color: goldenrod;
+}
+.collaps-p{
+  font-size: larger; font-weight: bold;
+  margin-left: 10px;
+  color: #002345;
+}
+#card-collaps:hover{
+  background-color:rgb(0, 157, 255) ;
+}
+#card-collaps:hover .collaps-p{
+  color: white;
+}
+.card-body{
+  color: #002345;
+  background-color: white;
+}
+.files{
+  
+  margin-top: 100px;
+}
+.file{
+  width: 230px;
+  height: 230px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+
+  
+}
+.file a{
+  text-decoration: none;
+  color: #002345;
+  font-weight: bold;
+
+}
+  .file img{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+  margin-top: 50px;
+  margin-left:20px;
+  }
+  .file a{
+font-size: small;
+  margin-top: 70px;
+  
+    
+  }
+  /*start nusrsing links suctuion */
+  .nurs-a{
+    color: white;
+    display: grid;
+    margin-top: 5px;
+  }
+  #icon5{
+    font-size: 40px;
+    background-color: white;
+    color: rgb(0, 66, 136);
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    
+  }
+  /*end nusrsing links suctuion */
+

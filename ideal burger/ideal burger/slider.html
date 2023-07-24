@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .ceo {
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ceo img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .ceo:hover img {
+      transform: scale(1.1);
+    }
+
+    .ceo-info {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3s ease;
+    }
+
+    .ceo:hover .ceo-info {
+      opacity: 1;
+    }
+
+    .ceo h2,
+    .ceo p {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .social-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .social-icons li a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      color: #fff;
+      background-color: #333;
+      transition: background-color 0.3s ease;
+    }
+
+    .social-icons li a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-5">About Us</h1>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="ceo">
+          <img src="img/rauf.jpg" alt="CEO 1">
+          <div class="ceo-info">
+            <h2>John Doe</h2>
+            <p>
+              John Doe is one of our CEOs and has been with the company for over 10 years.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In euismod, nisl id ornare tempor, purus leo consectetur lorem, eu convallis nisl nulla sit amet nunc.
+              Nullam rhoncus, ligula vel rhoncus bibendum, nisl justo luctus urna, a scelerisque neque tellus at orci.
+            </p>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="ceo">
+          <img src="img/ceo2.jpg" alt="CEO 2">
+          <div class="ceo-info">
+            <h2>Jane Smith</h2>
+            <p>
+              Jane Smith is our other CEO and brings extensive experience in the industry.
+              Sed et dui ut tellus sagittis sodales ut in sem. Proin id convallis lacus, sed maximus neque.
+              Mauris vitae dolor ut purus auctor pulvinar. Curabitur et tortor lacus.
+              Integer ut lacus leo. Curabitur id lectus tincidunt, varius velit vel, posuere risus.
+            </p>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome JS -->
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
