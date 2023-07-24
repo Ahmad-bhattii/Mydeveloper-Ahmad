@@ -1,0 +1,264 @@
+/*  suction home*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top-header{
+    height: 50px;
+    background-color: darkgray;
+}
+#icon-top{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+.a-top{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+#icon-top-2{
+    color: white;
+    font-size: 15px;
+    float: right;
+
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.span-top{
+    margin-left: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+/* nav suction */
+#nav-a {
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    
+}
+nav{
+    margin-left: 60px;
+}
+@media screen and (max-width:776px) and (min-width:0px) {
+    #header-top{
+        display: none;
+    }
+    #top-nav-logo{
+        width: 100%;
+        background-color: white;
+
+    }
+    .navbar-toggler{
+        position: relative;
+        background-color: white;
+        overflow: hidden;
+        float: left;
+        /* left: 15rem; */
+        /* position: absolute; */
+    }
+    nav{
+        margin-left: 0px;
+        background-color: black;
+        width: 100%;
+        margin-top: 0px;
+
+    }
+   
+    .red{
+        width: 100%;
+        position: fixed;
+    
+    }
+    li{
+        border-bottom: 0.1px solid white;
+    }
+    .image-layout{
+        margin-left: 0px;
+    }
+    .video-container{
+        display: none;
+    }
+    
+    
+    #com .companies{margin-top: 70px;
+
+    }
+    #a-bb{
+        margin-left: 200px;
+        margin-top: 5px;
+    }
+    
+#head3{
+    font-size: medium;
+}
+
+}
+@media screen and (max-width:1284px) and (min-width:900px) {
+    .hero-mid{
+       
+    
+        width: 500px;
+        
+    
+        background-color: rgba(0, 0, 0, 0.404);
+        height: 300px;
+        margin-left: 300px;
+        color: white;
+        padding: 30px;
+    }
+    #btn-112{margin-left: 35%;
+        width: 300px;
+
+    }
+    #btn-112  input{
+        width: 280px;
+    
+    }
+}
+/* nav suction */
+/* hero suction */
+.hero-mid{
+    width: 380px;
+    /* width: 500px; */
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 300px;
+    /* margin-left: 300px; */
+    color: white;
+    padding: 30px;
+}
+.hero-mid h1{
+    font-size: 40px;
+}
+
+/* hero suction */
+/* video suction */
+.content-overlay{
+    position: absolute;
+    top: 310%;
+    background-color: rgba(255, 255, 255, 0.11);
+    left: 28%;
+    height: 358px;
+    padding: 30px;
+    width: 470px;
+}
+/* end video suction */
+/* products suction  */
+.box{
+    width: 270px;
+    height: 50%;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.box-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all .6s ease-in-out;
+}
+.col-md-3 .box-content::before,.box-content::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.733);
+    opacity: 0;
+    /* transition: all .6s ease-in-out; */
+    z-index: 0;
+    margin: auto;
+  }
+  .box-content::before{
+    top: 0;
+  }
+  .box-content::after{
+    bottom: 0;
+  }
+  .box:hover .box-content::before{
+    opacity: 1;
+    top: 0;
+  }
+  .box:hover .box-content::after{
+    opacity: 1;
+    bottom: 0;
+  }
+  .box-content .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(200px);
+    /* transition: all .6s ease-in-out; */
+    opacity: 0;
+  }
+  .box-content .content a {
+   
+    /* z-index: 10; */
+    border: 1px solid white;
+    border-radius: 0px;
+  }
+  .box-content .content a h3{
+    line-height: 2;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: auto;
+  }
+ 
+  .box-content:hover .content{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+/* end products suction */
+/* start info about suction */
+.info-a{
+    text-decoration: none;
+    display: grid;
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+    margin-left: 17px;
+    font-family: Roboto;
+}
+.fd{
+    margin-top: 30px;
+}
+.font-info{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#iconss{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 5px;
+}
+.footer{
+    margin-left: 20px;
+    color: white;
+    margin-top: 30px;
+    font-size: smaller;
+}
+/* end info about suction */
+.companies{
+    margin-top: 200px;
+    padding: 20px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Carousel</title>
+  <style>
+    .carousel {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .carousel-inner {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: transform 0.5s;
+    }
+
+    .carousel-item {
+      flex: 1 0 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+
+    .carousel-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .carousel-nav button {
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <div class="carousel-inner" style="display: block;">
+      <div class="carousel-item"><h1 style="display: block;">i am a web developer</h1><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum blanditiis maiores iusto consequuntur est tempore laboriosam porro mollitia accusantium nihil nemo aut minima placeat amet praesentium nobis aliquid atque, velit sit nisi in quibusdam! Ea quaerat dolore dicta totam officiis ipsum vitae atque voluptatum.</p></div>
+      <div class="carousel-item">Text 2</div>
+      <div class="carousel-item">Text 3</div>
+      <div class="carousel-item">Text 4</div>
+    </div>
+    <div class="carousel-nav">
+      <button id="prevBtn">&lt;</button>
+      <button id="nextBtn">&gt;</button>
+    </div>
+  </div>
+
+  <script>
+    const carouselInner = document.querySelector('.carousel-inner');
+    const prevBtn = document.querySelector('#prevBtn');
+    const nextBtn = document.querySelector('#nextBtn');
+    let currentItem = 0;
+
+    prevBtn.addEventListener('click', () => {
+      currentItem = (currentItem - 1 + 4) % 4;
+      updateCarousel();
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentItem = (currentItem + 1) % 4;
+      updateCarousel();
+    });
+
+    function updateCarousel() {
+      carouselInner.style.transform = `translateY(-${currentItem * 100}%)`;
+    }
+  </script>
+</body>
+</html>
