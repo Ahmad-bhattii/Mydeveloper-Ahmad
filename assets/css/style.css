@@ -1225,3 +1225,22 @@ section {
 color: transparent;
 background-color: white;
 }
+@media screen and (max-width:754px) and (min-width:0px) {
+  .box{
+    margin-left: 0px;
+  left: 0;
+  width: 340px;
+ 
+
+  }
+  .hero-container{
+    text-align: center;
+  }
+  #btn-hire{
+    margin-top: 10px;
+    width: 70%;
+  }
+  
+
+  
+}
