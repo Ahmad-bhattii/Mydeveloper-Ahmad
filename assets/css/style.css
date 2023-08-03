@@ -258,7 +258,7 @@ ul li{
 /* background-image: linear-gradient(rgba(21, 1, 1, 0.76),rgba(23, 1, 1, 0.783)),url("../img/Untitled\ design.jpg"); */
   background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
+/* background-position: center; */
 overflow: hidden;
   
   
